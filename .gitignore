@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Vector database
+chroma_db/
+
+# Temporary chunks
+chunks/
+
+# VS Code
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+# Backend
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/__pycache__/
+*.pyc
+
+# Runtime logs
+*.log
